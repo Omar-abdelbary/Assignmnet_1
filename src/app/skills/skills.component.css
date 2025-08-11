@@ -1,0 +1,35 @@
+
+.skills {
+  width: 100%;
+  height: auto;
+  background-color:#fff;
+  margin-top: 60px;
+}
+
+.skills .skills-info h5 {
+  color: #999;
+  font-size: 13px;
+  padding-top: 60px;
+  margin-bottom: 20px;
+}
+
+.skills .skills-info h6 {
+  font-size: 18px;
+  color: #000;
+  margin-bottom: 20px;
+}
+
+.skills .skills-info p {
+  color: #000000b3;
+  font-size: 15px;
+}
+
+.skills .skills-about {
+  width: 100%;
+  height: auto;
+  margin-top: 50px;
+}
+
+.skills .skills-about .skills-about-one {
+  margin-bottom: 25px;
+}

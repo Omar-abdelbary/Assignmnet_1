@@ -1,0 +1,51 @@
+
+
+.home {
+    width: 100%;
+  height: auto;
+  background-color:#fff;
+  margin-top: 60px;
+}
+
+
+.owl-carousel .owl-item .active {
+  background: transparent !important;
+}
+
+.home .home-info {
+  padding-top: 120px;
+}
+
+.home .home-info h3 {
+  color: #999;
+  font-size: 35px;
+  /* text-decoration: underline; */
+  background-color: transparent !important;
+  margin-bottom: 25px;
+}
+
+.home .home-info p {
+  color: #999;
+
+}
+
+.home .home-info .btn {
+  color: #999;
+  transition: all 1s;
+  border: 1px solid #999;
+}
+
+.home .home-info .btn:hover {
+  color: #fff !important;
+  background-color: #2c98f0;
+}
+
+.home .img-list {
+  padding-top: 80px;
+}
+
+:host ::ng-deep .owl-carousel .owl-item.active,
+:host ::ng-deep .owl-carousel .owl-item.active > div {
+  background: transparent !important;
+  background-image: none !important;
+}

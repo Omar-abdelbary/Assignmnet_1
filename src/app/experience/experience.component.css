@@ -1,0 +1,110 @@
+.experience-about {
+  width: 100%;
+  height: auto;
+  background-color:#fff;
+  margin-top: 60px;
+  padding-bottom: 25px;
+}
+
+.experience-about .experience-about-head h5  {
+  color: #999;
+  font-size: 13px;
+  padding-top: 60px;
+  margin-bottom: 20px;
+}
+
+.experience-about .experience-about-head  h6 {
+  font-size: 18px;
+  color: #000;
+  margin-bottom: 20px;
+}
+
+.experience-about .experience-info {
+  width: 100%;
+  height: auto;
+  border-left: 2px solid #999;
+  /* position: relative; */
+}
+
+.experience-about .experience-info .icon,
+.experience-about .experience-info .icon-2,
+.experience-about .experience-info .icon-3 {
+  position: relative;  /* مهم */
+  width: 100%;
+  height: auto;
+}
+
+.experience-about .experience-info .icon i,
+.experience-about .experience-info .icon-2 i,
+.experience-about .experience-info .icon-3 i {
+  position: absolute; /* مهم */
+  left: -8px;
+  top: 0;
+  color: #fff;
+  padding: 15px 25px 15px 15px !important;
+  cursor: pointer;
+  border-radius: 90%;
+  margin-top: 10px;
+}
+
+
+.experience-about .experience-info .icon i  {
+  left: -20px;
+  top: 10px;
+  transition: left 0.3s ease;
+}
+
+
+
+
+
+.experience-about .experience-info .icon-2 i {
+  left: -20px;
+  top: 10px; /* لو تحب تغير مكانها رأسياً */
+  transition: left 0.3s ease;
+}
+
+
+
+
+.experience-about .experience-info .icon-3 i {
+  left: -20px;
+  top: 10px;
+  transition: left 0.3s ease;
+}
+
+
+
+
+.experience-about .experience-info .ex-about {
+  background-color: #f2f3f7;
+  border-radius: 20px;
+  position: relative;
+  margin-left: 40px;
+
+}
+
+
+.experience-about .experience-info .ex-about::before {
+  content: "";
+  position: absolute;
+  left: -20px; /* مكان السهم من الشمال */
+  top: 30%; /* في منتصف ارتفاع الديف */
+  transform: translateY(-50%);
+  border-top: 10px solid transparent;  /* شكل المثلث */
+  border-bottom: 10px solid transparent;
+  border-right: 20px solid #333; /* لون السهم */
+  width: 0;
+  height: 0;
+}
+
+.experience-about .experience-info .ex-about h5 {
+  padding-top: 25px;
+  margin-left: 15px;
+  margin-bottom: 15px;
+}
+
+.experience-about .experience-info .ex-about p {
+  padding-bottom: 20px;
+  margin-left: 15px;
+}

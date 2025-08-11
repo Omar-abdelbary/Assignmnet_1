@@ -1,0 +1,27 @@
+
+/* You can add global styles to this file, and also import other style files */
+
+
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+   font-family: "Roboto Mono", monospace;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+
+.active {
+  background-color: #2c98f0;
+  color: #fff !important;
+  border-radius: 10px;
+}
+
+
+.active-nested {
+  background-color: #2c98f0;
+  color: #fff !important;
+  border-radius: 25px;
+}
+
